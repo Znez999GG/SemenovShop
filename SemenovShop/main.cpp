@@ -1,5 +1,5 @@
 #define NOMINMAX
-
+#include "stroger.hpp"
 #include <string>
 #include <iostream> 
 #include <Windows.h>
@@ -16,8 +16,17 @@ int main()
 	_setmode(_fileno(stdin), _O_U16TEXT);
 	_setmode(_fileno(stdout), _O_U16TEXT);
 	Start();
-
-
+	delete[]userId;
+	delete[]LoginArr;
+	delete[]PassArr;
+	delete[]StatusArr;
+	if (IsStoregeCreated)
+	{
+		delete[]idArr;
+		delete[]nameArr;
+		delete[]countArr;
+		delete[]priceArr;
+	}
 
 
 

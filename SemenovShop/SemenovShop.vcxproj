@@ -143,6 +143,7 @@
     <ClCompile Include="AutoRization.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="serviseFunction.cpp" />
+    <ClCompile Include="stroger.cpp" />
     <ClCompile Include="user.cpp" />
   </ItemGroup>
   <ItemGroup>

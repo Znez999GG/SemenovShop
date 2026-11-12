@@ -6,11 +6,15 @@
 #include <string>
 #include <iostream>
 
+#include "stroger.hpp"
 #include "user.hpp"
 #include "serviseFunction.hpp"
 
 void Start();
 bool Login();
+void SuperAdminMenu();
+void AdminMenu();
+void UserMenu();
 
 
 
