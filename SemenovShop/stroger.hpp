@@ -22,6 +22,7 @@ void AddProduct();
 void RemoveProduct();
 void ChangePrice();
 
+void ChangeStorage();
 
 
 
