@@ -90,7 +90,7 @@ void SuperAdminMenu()
 
 		std::wcout << L"1 - Начать продажи\n";
 		std::wcout << L"2 - Посмотреть склад\n";
-		std::wcout << L"3 - посмотреть склад\n";
+		std::wcout << L"3 - Пополнить склад\n";
 		std::wcout << L"4 - Списать товары\n";
 		std::wcout << L"5 - Изменить цены\n";
 		std::wcout << L"6 - Редактировать склад\n";
@@ -111,15 +111,15 @@ void SuperAdminMenu()
 		}
 		else if (choose == L"3")
 		{
-
+			AddProduct();
 		}
 		else if (choose == L"4")
 		{
-
+			RemoveProduct();
 		}
 		else if (choose == L"5")
 		{
-
+			ChangePrice();
 		}
 		else if (choose == L"6")
 		{

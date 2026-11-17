@@ -23,6 +23,7 @@ void FillArray(ArrType* dynamiArr, ArrType* staticArr, size_t commonSize)
 	}
 }
 
+bool IsNumber(const std::wstring& str);
 
 
 
