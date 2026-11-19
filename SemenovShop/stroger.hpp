@@ -23,7 +23,8 @@ void RemoveProduct();
 void ChangePrice();
 
 void ChangeStorage();
-
+void AddNewProduct();
+void ChangeProductName();
 
 
 
