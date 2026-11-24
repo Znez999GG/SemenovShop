@@ -13,8 +13,8 @@ extern std::wstring* StatusArr;
 extern size_t* userId;
 
 
-
-
+void ChangeAccaunt();
+void CreateNewAccaunt();
 
 
 

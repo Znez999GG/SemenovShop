@@ -1,8 +1,7 @@
 #ifndef _STROGER_HPP_
 #define  _STROGER_HPP_
 
-#include "serviseFunction.hpp"
-
+#include "user.hpp"
 
 //размер масиисвов склада
 extern size_t sizeSt;
@@ -25,27 +24,8 @@ void ChangePrice();
 void ChangeStorage();
 void AddNewProduct();
 void ChangeProductName();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+void DeleteProduct();
+void ChangeStorageLimits();
 
 
 
