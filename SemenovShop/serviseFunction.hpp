@@ -6,10 +6,11 @@
 #include <string>
 #include <Windows.h>
 #include <cwctype>
+#include <unordered_set>
 
-void GetLine(std::wstring& str);
+void GetLine(std::wstring& str); 
 bool IsNumber(const std::wstring& str);
-bool IsNotSame(std::wstring& chooseName, std::wstring* nameArr, size_t NameArrSize);
+bool IsNotSame(const std::wstring& chooseName, std::wstring* nameArr, size_t NameArrSize);
 
 
 inline void Err()

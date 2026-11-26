@@ -1,0 +1,7 @@
+/* Visual Studio Settings File */
+{
+  "environment.visualExperience.colorTheme": "dark",
+  "environment.visualExperience.systemLightTheme": "dark",
+  "environment.visualExperience.systemDarkTheme": "dark",
+  "languages.defaults.general.wordWrap": false
+}

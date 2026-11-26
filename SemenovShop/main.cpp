@@ -20,6 +20,8 @@ int main()
 	delete[]LoginArr;
 	delete[]PassArr;
 	delete[]StatusArr;
+	delete[]fineArr;
+	delete[]salesArr;
 	if (IsStoregeCreated)
 	{
 		delete[]idArr;
